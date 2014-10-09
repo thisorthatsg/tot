@@ -1,0 +1,58 @@
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #c1b49a;
+}
+     
+titlepage{
+    height: 120px; 
+  position: relative; 
+  width: 200px;
+}
+img.First {
+    max-width:20%;
+    max-height:auto;
+    position:absolute;
+    top:0; left:0; right:0; bottom:0;
+    margin:auto;
+}
+ 
+img.righttop {
+    max-width:10%;
+    max-height:auto;
+    position:absolute;
+    left: auto; right: 40px; top: 0; bottom:0;
+  margin: auto;
+  z-index:2
+}
+
+img.rightbot {
+    max-width:10%;
+    max-height:auto;
+    position:absolute;
+    left: auto; right:40px; top:10px;bottom:0;
+  margin: auto;
+   z-index:1
+}
+
+img.lefttop {
+    max-width:10%;
+    max-height:auto;
+    position:absolute;
+    left: 40px; right: auto; top: 0; bottom:0;
+  margin: auto;
+  z-index:2
+}
+img.leftbot {
+    max-width:10%;
+    max-height:auto;
+    position:absolute;
+    left: 40px; right:auto; top:10px;bottom:0;
+  margin: auto;
+   z-index:1
+}
+p.disclaimer{
+text-align: center;
+  position: absolute;
+  left: 0; right: 0; top: auto; bottom: 0;
+}
